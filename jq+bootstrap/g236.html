@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jquery+bootstrap系统界面</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Fontastic Custom icon font-->
+    <link rel="stylesheet" href="css/fontastic.css">
+    <!-- Google fonts - Poppins -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<body>
+	<div class="page">
+    <!-- Main Navbar-->
+    <header class="header">
+        <nav class="navbar">
+            <!-- Search Box-->
+            <div class="search-box">
+                <button class="dismiss"><i class="icon-close"></i></button>
+                <form id="searchForm" action="#" role="search">
+                    <input type="search" placeholder="What are you looking for..." class="form-control">
+                </form>
+            </div>
+            <div class="container-fluid">
+                <div class="navbar-holder d-flex align-items-center justify-content-between">
+                    <!-- Navbar Header-->
+                    <div class="navbar-header">
+                        <!-- Navbar Brand --><a href="index.html" class="navbar-brand d-none d-sm-inline-block">
+                        <div class="brand-text d-none d-lg-inline-block"><span>jquery+bootstrap系统界面</span></div>
+                        <div class="brand-text d-none d-sm-inline-block d-lg-none">
+                            <strong>jquery+bootstrap系统界面</strong></div>
+                    </a>
+                        <!-- Toggle Button--><a id="toggle-btn" href="#"
+                                                class="menu-btn active"><span></span><span></span><span></span></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="page-content d-flex align-items-stretch">
+        <!-- Side Navbar -->
+        <nav class="side-navbar">
+            <ul class="list-unstyled">
+               
+                <li class="active"><a href="g236.html" aria-expanded="false"  >主界面一</a>
+                
+                </li>
+                <li><a href="g238.html" aria-expanded="false" >主界面二</a>
+                    
+                </li>
+                <li><a href="g237.html" aria-expanded="false" >主界面三</a>
+                    
+                </li>
+                
+            </ul>
+
+            <span class="heading" >下拉分页</span>
+            <ul class="list-unstyled">
+                <li><a href="#a" aria-expanded="false" data-toggle="collapse">分支一</a>
+                    <ul id="a" class="collapse list-unstyled ">
+                        <li><a href="#">分支界面</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+
+            <span class="heading">下拉分页</span>
+            <ul class="list-unstyled">
+                <li><a href="#d" aria-expanded="false" data-toggle="collapse">分支一</a>
+                    <ul id="d" class="collapse list-unstyled ">
+                        <li><a href="#">分支界面</a></li>
+                        <li ><a href="#">分支界面</a></li>
+                        <li><a href="#">分支界面</a></li>
+                    </ul>
+                </li>
+                <li><a href="#e" aria-expanded="false" data-toggle="collapse">分支二</a>
+                    <ul id="e" class="collapse list-unstyled ">
+                        <li><a href="#">分支界面</a></li>
+                        <li><a href="#">分支界面</a></li>
+                        <li><a href="#">分支界面</a></li>
+                    </ul>
+                </li>
+                <li><a href="#f" aria-expanded="false" data-toggle="collapse">分支三</a>
+                    <ul id="f" class="collapse list-unstyled ">
+                        <li><a href="#">分支界面</a></li>
+                        <li><a href="#">分支界面</a></li>
+                        <li><a href="#">分支界面</a></li>
+                        <li><a href="#">分支界面</a></li>
+                        <li><a href="#">分支界面</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+           
+        </ul>
+        </nav>
+        <div class="content-inner">
+            <!-- Page Header-->
+            <header class="page-header">
+                <div class="container-fluid">
+                    <h2 class="no-margin-bottom">主界面一</h2>
+                </div>
+            </header>
+             <div class="row">
+             <div class="col">
+             	<div class="input-group mb-3 four" >
+                <input type="text" class="form-control" placeholder="4" >
+                <div class="input-group-append">
+                <button class="btn btn-success" type="submit">Go</button>  
+                    </div>
+                 </div>
+             </div>
+             </div>
+             <div class="d-flex mb-2" >
+    <div class="p-2 flex-fill bg-primary" id="tiaozhuan" >
+    	
+    </div>
+    <div class="p-2 flex-fill bg-warning">
+    	
+    </div>
+    
+             </div>
+             <div class="d-flex mb-2" >
+    <div class="p-2 flex-fill bg-info"  >
+    	
+    </div>
+    <div class="p-2 flex-fill bg-success">
+    	
+    </div>
+    
+             </div>
+
+        </div>
+
+
+<script src="vendor/popper.js/umd/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/jquery.cookie/jquery.cookie.js"></script>
+<script src="vendor/chart.js/Chart.min.js"></script>
+<script src="vendor/jquery-validation/jquery.validate.min.js"></script>
+<script src="js/charts-home.js"></script>
+<!-- Main File-->
+<script src="js/front.js"></script>
+</body>
+</html>
