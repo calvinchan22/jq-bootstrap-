@@ -1,1 +1,3 @@
-# jq-bootstrap-
+# 第一步克隆至本地
+# 双击index.html查看
+# 根据需求修改
